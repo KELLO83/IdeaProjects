@@ -5,6 +5,7 @@ import javax.validation.constraints.*;
 import org.hibernate.validator.constraints.CreditCardNumber;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
 import com.example.spring_fifty_edition.tacos.Taco;
 import com.example.spring_fifty_edition.tacos.data.OrderRepository;
@@ -18,14 +19,31 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import lombok.extern.slf4j.Slf4j;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.ManyToMany;
+import javax.persistence.PrePersist;
+import javax.persistence.Table;
+
+
 @Slf4j // LOG 기록
 @Controller
 @RequestMapping("/orders")
 @SessionAttributes("order")
 @Data
+@Entity // JPA 객체 선언
+@Table(name="Taco_Order") // DB 테이블명 직접 명시 가능
 public class Order {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO) // 자동부여 ID
     private  long id;
-    private Data placedAt;
+    private Date placedAt;
+
+    @ManyToMany(targetEntity = Taco.class)
     private List<Taco> tacos = new ArrayList<>();
 
     @NotBlank(message = "Name is required")
@@ -55,5 +73,10 @@ public class Order {
 
     public  void addDesign(Taco design){
         this.tacos.add(design);
+    }
+
+    @PrePersist
+    void placedAt() {
+        this.placedAt = new Date();
     }
 }

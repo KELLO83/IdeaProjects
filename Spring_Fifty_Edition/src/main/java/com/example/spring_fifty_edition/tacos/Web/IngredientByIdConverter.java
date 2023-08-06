@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component;
 import com.example.spring_fifty_edition.tacos.Ingredient;
 import com.example.spring_fifty_edition.tacos.data.IngredientRepository;
 
+import java.util.Optional;
+
 
 @Component // Spring bean 등록
 
@@ -19,7 +21,10 @@ public class IngredientByIdConverter  implements Converter<String,Ingredient>{
         this.ingredientRepository = ingredientRepository;
     }
     @Override
-    public Ingredient convert(String id) { // id를 통한 ingredient 찾기
-        return ingredientRepository.findById(id);
+    public Ingredient convert(String id) { //CURD로 인한 코드 변경
+        Optional<Ingredient> optionalIngredient = ingredientRepository.findById(id);
+        return optionalIngredient.isPresent() ?
+                optionalIngredient.get() : null;
     }
+
 }

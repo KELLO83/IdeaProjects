@@ -18,20 +18,20 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import javax.validation.Valid;
 
-//import com.example.spring_fifty_edition.tacos.data.OrderRepository;
-import com.example.spring_fifty_edition.tacos.data.jdbcOrderRepository;
+import com.example.spring_fifty_edition.tacos.data.OrderRepository;
+//import com.example.spring_fifty_edition.tacos.data.jdbcOrderRepository;
 @Slf4j // Log 기록
 @Controller// Componet discriminate
 @RequestMapping("/orders")
 @SessionAttributes("order")
 public class OrderController {
 
-    private jdbcOrderRepository orderRepo;
+    private OrderRepository orderRepo;
     // private OrderRepository orderRepo; // DB 연결
 
     //@Autowired
 
-    public OrderController(jdbcOrderRepository ord){
+    public OrderController(OrderRepository ord){
         this.orderRepo = ord;
     }
     @GetMapping("/current")
