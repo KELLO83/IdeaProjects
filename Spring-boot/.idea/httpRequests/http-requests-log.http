@@ -1,0 +1,129 @@
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T190144.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T190031.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185610.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185520.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185516.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185442.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185212.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185100.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain/post
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T185007.400.json
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T180937.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/post-api/domain
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T180857.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/post-api
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-11T180837.404.json
+
+###
+
+GET http://localhost:8080/api/v1/get-api/home
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-08T154748.200.txt
+
+###
+

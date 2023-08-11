@@ -1,0 +1,162 @@
+[2023-08-11 18:36:37.976] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 27532 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:36:37.978] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:36:39.149] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:36:39.159] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:36:39.162] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:36:39.164] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:36:39.299] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:36:39.300] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1256 ms
+[2023-08-11 18:36:39.562] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:36:39.762] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:36:39.805] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:36:39.817] [INFO ] [main] com.example.springboot.Application Started Application in 2.58 seconds (process running for 3.696)
+[2023-08-11 18:36:56.594] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:36:56.594] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:36:56.597] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:36:56.623] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[2023-08-11 18:37:20.786] [INFO ] [http-nio-8080-exec-2] com.example.springboot.Controller.GetController call home
+[2023-08-11 18:37:47.605] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 24000 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:37:47.608] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:37:48.750] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:37:48.773] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:37:48.775] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:37:48.775] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:37:48.918] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:37:48.918] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1249 ms
+[2023-08-11 18:37:49.203] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:37:49.403] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:37:49.456] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:37:49.470] [INFO ] [main] com.example.springboot.Application Started Application in 2.596 seconds (process running for 3.631)
+[2023-08-11 18:37:51.952] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:37:51.953] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:37:51.954] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:37:51.996] [INFO ] [http-nio-8080-exec-1] com.example.springboot.Controller.GetController 로그 출력 확인하기
+[2023-08-11 18:45:03.945] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 11452 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:45:03.948] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:45:05.101] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:45:05.112] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:45:05.114] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:45:05.114] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:45:05.259] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:45:05.259] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1242 ms
+[2023-08-11 18:45:05.534] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:45:05.734] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:45:05.777] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:45:05.790] [INFO ] [main] com.example.springboot.Application Started Application in 2.578 seconds (process running for 3.637)
+[2023-08-11 18:49:40.975] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 21764 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:49:40.979] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:49:42.133] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:49:42.144] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:49:42.146] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:49:42.147] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:49:42.278] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:49:42.279] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1227 ms
+[2023-08-11 18:49:42.547] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:49:42.745] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:49:42.791] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:49:42.804] [INFO ] [main] com.example.springboot.Application Started Application in 2.528 seconds (process running for 3.567)
+[2023-08-11 18:50:01.802] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:50:01.803] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:50:01.804] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:50:01.860] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 18:50:07.022] [WARN ] [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 18:51:00.853] [WARN ] [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 18:51:58.934] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 21800 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:51:58.937] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:52:00.091] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:52:00.102] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:52:00.106] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:52:00.106] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:52:00.239] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:52:00.239] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1233 ms
+[2023-08-11 18:52:00.531] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:52:00.723] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:52:00.768] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:52:00.782] [INFO ] [main] com.example.springboot.Application Started Application in 2.557 seconds (process running for 3.616)
+[2023-08-11 18:52:03.180] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:52:03.181] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:52:03.182] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:52:03.291] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: No content to map due to end-of-input]
+[2023-08-11 18:52:12.340] [WARN ] [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 18:53:47.724] [WARN ] [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('=' (code 61)): was expecting a colon to separate field name and value]
+[2023-08-11 18:54:40.012] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 21128 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:54:40.015] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:54:41.277] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:54:41.287] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:54:41.290] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:54:41.290] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:54:41.456] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:54:41.456] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1373 ms
+[2023-08-11 18:54:41.730] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:54:41.936] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:54:41.979] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:54:41.992] [INFO ] [main] com.example.springboot.Application Started Application in 2.729 seconds (process running for 3.767)
+[2023-08-11 18:54:42.527] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:54:42.527] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:54:42.529] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:54:42.583] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 18:55:09.875] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 27732 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:55:09.878] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:55:11.201] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:55:11.214] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:55:11.217] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:55:11.217] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:55:11.363] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:55:11.363] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1412 ms
+[2023-08-11 18:55:11.646] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:55:11.856] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:55:11.902] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:55:11.914] [INFO ] [main] com.example.springboot.Application Started Application in 2.772 seconds (process running for 3.842)
+[2023-08-11 18:55:15.918] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:55:15.918] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:55:15.919] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:55:59.977] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 14880 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 18:55:59.980] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 18:56:01.132] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 18:56:01.155] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:56:01.157] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 18:56:01.158] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 18:56:01.295] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 18:56:01.296] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1249 ms
+[2023-08-11 18:56:01.570] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 18:56:01.763] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 18:56:01.810] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 18:56:01.823] [INFO ] [main] com.example.springboot.Application Started Application in 2.564 seconds (process running for 3.64)
+[2023-08-11 18:56:10.060] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 18:56:10.061] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 18:56:10.062] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-08-11 18:56:10.117] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 19:00:25.636] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 26512 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 19:00:25.639] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 19:00:26.795] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 19:00:26.816] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 19:00:26.818] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 19:00:26.819] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 19:00:26.963] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 19:00:26.963] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1258 ms
+[2023-08-11 19:00:27.237] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 19:00:27.436] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 19:00:27.484] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 19:00:27.497] [INFO ] [main] com.example.springboot.Application Started Application in 2.57 seconds (process running for 3.62)
+[2023-08-11 19:00:31.120] [INFO ] [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 19:00:31.120] [INFO ] [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 19:00:31.122] [INFO ] [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-08-11 19:00:31.187] [WARN ] [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 19:00:55.276] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-08-11 19:01:32.878] [WARN ] [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-08-11 19:01:44.515] [WARN ] [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.springboot.Controller.PostController.postMethod(java.util.Map<java.lang.String, java.lang.Object>)]
+[2023-08-11 19:02:16.927] [INFO ] [main] com.example.springboot.Application Starting Application using Java 18.0.1.1 with PID 23976 (C:\Users\user\IdeaProjects\Spring-boot\target\classes started by user in C:\Users\user\IdeaProjects\Spring-boot)
+[2023-08-11 19:02:16.931] [INFO ] [main] com.example.springboot.Application No active profile set, falling back to 1 default profile: "default"
+[2023-08-11 19:02:18.354] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-08-11 19:02:18.365] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-08-11 19:02:18.367] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-08-11 19:02:18.368] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-08-11 19:02:18.504] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-08-11 19:02:18.505] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1505 ms
+[2023-08-11 19:02:18.777] [INFO ] [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+[2023-08-11 19:02:18.993] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-08-11 19:02:19.036] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-08-11 19:02:19.049] [INFO ] [main] com.example.springboot.Application Started Application in 2.881 seconds (process running for 3.93)
+[2023-08-11 19:02:24.576] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-08-11 19:02:24.576] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-08-11 19:02:24.577] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
