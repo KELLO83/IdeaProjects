@@ -35,8 +35,7 @@ public class OrderController {
         this.orderRepo = ord;
     }
     @GetMapping("/current")
-    public  String orderForm(Model model){
-        model.addAttribute("order", new Order());
+    public  String orderForm(){
         return "orderForm";
     }
     @PostMapping
