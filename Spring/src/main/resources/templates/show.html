@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1> Test view 입니다</h1>
+
+<div>
+</div>
+<h1>Actor List</h1>
+
+<table>
+  <tr>
+    <th>Actor ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Last Update</th>
+  </tr>
+  <tr th:each="actor : ${actors}">
+    <td th:text="${actor.actorId}"></td>
+    <td th:text="${actor.firstName}"></td>
+    <td th:text="${actor.lastName}"></td>
+    <td th:text="${actor.lastUpdate}"></td>
+  </tr>
+</table>
+</body>
+</html>
