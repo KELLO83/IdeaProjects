@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>City detail</title>
+</head>
+<body>
+<h1> City 항목입니다</h1>
+
+
+<h1> City List</h1>
+
+<table>
+    <tr>
+        <th>City ID</th>
+        <th>City Name</th>
+        <th>Country ID</th>
+        <th>Last Update</th>
+    </tr>
+
+    <tr th:each="city" : ${city}>
+        <td th:text="${city.cityId}"></td>
+        <td th:text="${city.city}"></td>
+        <td th:text="${city.countryId}"></td>
+        <td th:text="${city.lastUpdate}"></td>
+
+    </tr>
+
+</table>
+
+</body>
+</html>
